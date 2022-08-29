@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.container{
+    margin: 10px auto;
+    width: 30em;
+    height: 25em;
+    display: flex;
+    justify-content: space-between;
+}
+header{
+    margin: 10px auto;
+    width: 30em;
+    background-color: black;
+    color: white;
+    align-items: center;
+    padding: 10px;
+}
+.feed{
+    margin: 10px auto;
+    width: 30em;
+    background-color: whitesmoke;
+    text-align: center;
+    font-size: 25px;
+}
+.datos{
+    font-size: 12px;
+    width: 10em;
+    height: 20em;
+    border: black solid;
+}
+.user{
+    border-radius: 45%;
+    padding: 3px;
+    background-color:black;
+    width: 66px;
+    margin-left: 22PX;
+    margin-top: 20PX;
+}
+.datos a{
+    margin-left: 25PX;
+    font-size: 10px;
+}
+.datos h3{
+    margin: 30px 10px;
+}
+.persons1{
+    border: black solid;
+    height: 7em;
+    width: 20em;
+}
+.persons2, .persons3{
+    margin-top: 20px;
+    border: black solid;
+    height: 7em;
+    width: 20em;
+}
+.user-header{
+    display: flex;
+    align-items: center;
+    margin: 15px;
+    font-size: 13px;
+}
+.count1{
+    margin-left: 9em;
+
+}
+.count2{
+    margin-left: 7em;
+}
+.count3{
+    margin-left: 10em;
+}
+.user-body{
+    font-size: 15px;    
+    padding: 10px;
+    display: flex;
+} 
+.likes1, .likes2, .likes3{
+    background-color: #fed966;
+    width: 40px;
+    box-shadow: 3px 3px black;
+    font-weight: bold;
+    margin-left: 20px;
+    align-items: end;
+} 
+a{
+    color: #2a587e;
+}
